@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="69px" viewBox="0 0 65 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>兼容性方案</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M65.419873,0.5 L65.419873,34.5 C65.419873,38.918278 62.045787,42.5 57.8836411,42.5 L7.95610487,42.5 C3.79395892,42.5 0.419872981,38.918278 0.419872981,34.5 L0.419872981,0.5 L65.419873,0.5 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TNT-首页" transform="translate(-1005.000000, -2185.000000)">
+            <g id="04" transform="translate(1.000000, 1769.000000)">
+                <g id="矩形-2" transform="translate(973.000000, 381.000000)">
+                    <g id="兼容性方案" transform="translate(19.000000, 26.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="88" height="88"></rect>
+                        <g id="矩形-4" transform="translate(11.000000, 9.000000)">
+                            <g id="路径-5" transform="translate(0.580127, 26.500000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="蒙版" fill="#128CFB" xlink:href="#path-1"></use>
+                                <polygon fill="#3AA1FF" mask="url(#mask-2)" points="66.419873 0.696369117 0.492151115 43.5 0.419872981 0.5"></polygon>
+                            </g>
+                            <path d="M58.4637681,0 C62.6259141,0 66,3.581722 66,8 L65.999127,19 L0.999127019,19 L1,8 C1,3.581722 4.37408594,0 8.53623188,0 L58.4637681,0 Z" id="矩形-3" fill="#FCBE00"></path>
+                            <circle id="椭圆形" fill="#FFFFFF" cx="12" cy="10" r="3"></circle>
+                            <circle id="椭圆形" fill="#FFFFFF" cx="23.5" cy="10" r="3"></circle>
+                            <circle id="椭圆形" fill="#FFFFFF" cx="35" cy="10" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

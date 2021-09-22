@@ -1,0 +1,109 @@
+.toggle-box-wrap {
+	& {
+		position: relative;
+		margin: 0 auto;
+	}
+	&.is-open {
+		.box-header::before,
+		.box-header::after {
+			transform: rotate(0deg);
+		}
+		.box-body {
+			display: block;
+			animation: demo-box-fade-in .2s cubic-bezier(0, .20, .20, .96);
+		}
+	}
+	.box-header {
+		& {
+			position: relative;
+			display: block;
+			margin: 0;
+			padding: .5em 1.5em;
+			line-height: 1.5;
+			font: inherit;
+			font-weight: 600;
+			font-size: 1.2em;
+			text-align: left;
+			border: none;
+			color: inherit;
+			background-color: transparent;
+			transition: border-color .12s;
+			outline: none;
+			cursor: pointer;
+		}
+		&:hover {
+			opacity: .75;
+		}
+		&::before,&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			width: 2px;
+			height: 50%;
+			background-color: hsl(0,0%,88%);
+			transition: transform .2s cubic-bezier(.4,.1,0,1);
+		}
+		&::before {
+			top: 0;
+			transform-origin: bottom center;
+			transform: translateX(.7em) rotate(-30deg) scale(.75);
+		}
+		&::after {
+			bottom: 0;
+			transform-origin: top center;
+			transform: translateX(.7em) rotate(30deg) scale(.75);
+		}
+		h2 {
+			font-size: 16px !important;
+			color: #126BFB;
+			margin: 0 0 8px;
+		}
+		p {
+			margin-top: .2em;
+			font-size: 11px;
+			// text-transform: uppercase;
+			font-weight: normal;
+			color: #777980;
+			margin-bottom: 0;
+		}
+	}
+	.box-body {
+		& {
+			display: none;
+			position: relative;
+			padding: 2em;
+			margin-top: 1em;
+			margin-bottom: 2em;
+			border-radius: 6px;
+			border: 1px solid #e0e0e0;
+			background-color: #f5f5f5;
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			top: -11px;
+			width: 20px;
+			height: 20px;
+			background-color: inherit;
+			border-top: inherit;
+			border-right: inherit;
+			border-top-right-radius: 3px;
+			transform: rotate(-45deg);
+		}
+	}
+
+	// markdown
+	.markdown-previewer-container {
+		> *:first-child {
+			margin-top: 0;
+		}
+		blockquote {
+			border-left: 0.5em #d4dae1 solid;
+			background: #fff !important;
+		}
+		.highlight {
+			border-color: #e0e0e0;
+			background-color: #fff;
+		}
+	}
+}

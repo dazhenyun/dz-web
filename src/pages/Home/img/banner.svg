@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="600px" viewBox="0 0 1920 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>banner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="95.0097656%" y1="46.1030324%" x2="25.6258138%" y2="52.2420247%" id="linearGradient-1">
+            <stop stop-color="#1F00BA" offset="0%"></stop>
+            <stop stop-color="#3E18FF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 0 1920 0 1920 597.159063 0 600"></polygon>
+        <linearGradient x1="37.0020134%" y1="43.2259959%" x2="78.5233893%" y2="61.3111271%" id="linearGradient-4">
+            <stop stop-color="#0728D4" offset="0%"></stop>
+            <stop stop-color="#1D7BFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="94.2003038%" y1="65.2723524%" x2="42.1296296%" y2="26.1610243%" id="linearGradient-5">
+            <stop stop-color="#0859FF" offset="0%"></stop>
+            <stop stop-color="#0F67D4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.7743298%" y1="104.095644%" x2="87.8751457%" y2="34.1783217%" id="linearGradient-6">
+            <stop stop-color="#9200FF" offset="0%"></stop>
+            <stop stop-color="#36C2FF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="47.2594424%" cy="55.0192266%" fx="47.2594424%" fy="55.0192266%" r="72.6454792%" gradientTransform="translate(0.472594,0.550192),scale(0.879620,1.000000),rotate(44.089828),scale(1.000000,1.010827),translate(-0.472594,-0.550192)" id="radialGradient-7">
+            <stop stop-color="#1CA8F0" offset="0%"></stop>
+            <stop stop-color="#1542CE" offset="100%"></stop>
+        </radialGradient>
+        <path d="M1920,-213 C1913.71345,36.9962449 1787.98251,216.73368 1542.80717,326.212305 C1175.04415,490.430243 920.43899,620 982.256704,620 C1023.46851,620 1336.04961,616.511121 1920,609.533362 L1920,173.904679 L1920,-213 Z" id="path-8"></path>
+        <filter x="-23.8%" y="-27.0%" width="147.5%" height="154.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="75" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.61090472   0 0 0 0 1  0 0 0 0.304113855 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TNT-首页">
+            <g id="01">
+                <g id="banner">
+                    <g id="椭圆形">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="蒙版" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <path d="M401.453085,-32 C600.079808,-32 753.306138,59.3050952 861.132073,241.915285 C1022.87098,515.830571 1267.04744,596.537753 1416.24149,620.179251 C1515.7042,635.94025 1033.6237,635.94025 -30,620.179251 L-30,189.740945 L-30,-32 L401.453085,-32 Z" id="路径" fill="url(#linearGradient-4)" opacity="0.69547526" mask="url(#mask-3)"></path>
+                        <circle fill="url(#linearGradient-5)" opacity="0.798921131" mask="url(#mask-3)" cx="270" cy="438" r="387"></circle>
+                        <circle fill="url(#linearGradient-6)" opacity="0.500093006" mask="url(#mask-3)" cx="109.5" cy="85.5" r="214.5"></circle>
+                        <g id="路径-2" opacity="0.299781436" mask="url(#mask-3)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            <use fill="url(#radialGradient-7)" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

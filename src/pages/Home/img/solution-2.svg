@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="81px" viewBox="0 0 66 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>国际化方案</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.9394835,51.9945867 C10.4030408,51.9945867 10.6677173,47.8177054 10.6677173,45.7292983 C10.6677173,41.8788018 8.37661293,40.177578 6.39608798,38.327886 C2.65182791,34.848479 0,29.2257208 0,22.9604994 C0,16.695211 3.59410113,0 23.478706,0 C43.3652948,0 46.9677419,16.7073911 46.9677419,22.9726794 C46.9677419,29.2380347 45.1519471,33.8531963 40.5612557,38.327886 C37.0317331,41.7500737 36.2312045,42.65993 36.2916102,45.7292983 C36.2916102,48.5131719 36.9046282,51.9721005 32.0199808,51.9945867 C28.171533,51.9945867 20.1826653,52.0067667 14.9394835,51.9945867 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="30.1935484" height="5.03225806" rx="2.51612903"></rect>
+        <rect id="path-5" x="0" y="0" width="21.8064516" height="5.03225806" rx="2.51612903"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TNT-首页" transform="translate(-1005.000000, -2008.000000)">
+            <g id="04" transform="translate(1.000000, 1769.000000)">
+                <g id="矩形-2" transform="translate(973.000000, 211.000000)">
+                    <g id="国际化方案" transform="translate(20.000000, 26.000000)">
+                        <rect id="矩形" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="87" height="87"></rect>
+                        <g id="编组-17" transform="translate(14.000000, 5.000000)">
+                            <g id="v-light-灯" transform="translate(7.548387, 9.225806)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="形状" fill="#128CFB" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <rect id="矩形" fill="#3AA1FF" mask="url(#mask-2)" x="-10.9032258" y="-2.51612903" width="35.2258065" height="57.8709677"></rect>
+                            </g>
+                            <g id="矩形" transform="translate(15.935484, 64.580645)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="蒙版" fill="#FCBE00" xlink:href="#path-3"></use>
+                                <rect fill="#FFD92E" mask="url(#mask-4)" x="-2.51612903" y="-1.67741935" width="36.9032258" height="4.19354839"></rect>
+                            </g>
+                            <g id="矩形" transform="translate(20.129032, 72.967742)">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <use id="蒙版" fill="#FCBE00" xlink:href="#path-5"></use>
+                                <rect fill="#FFD92E" mask="url(#mask-6)" x="-6.70967742" y="-1.67741935" width="36.9032258" height="4.19354839"></rect>
+                            </g>
+                            <path d="M23.7235095,14.4928221 C18.4609235,15.3046908 12.6434534,20.243676 12.5811836,27.6790577 C12.5527624,28.9093591 13.6554106,29.4708488 14.4805585,29.3349506 C15.1528622,29.2205285 15.7112478,28.5713739 15.7647053,27.8346717 C15.7130569,28.3514488 15.7326074,25.8640301 16.3515705,24.2368894 C17.8508896,20.2312363 21.8009076,17.6454732 25.5357533,17.4469656 C25.9198768,17.4291275 26.2399798,17.3790752 26.5086095,17.3075467 C28.5947937,16.7495777 27.4885856,14.3855588 26.2755792,14.274716 C25.6549238,14.2174463 24.8208469,14.3122113 23.7235095,14.4928221 L23.7235095,14.4928221 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <line x1="0.838709677" y1="15.0967742" x2="5.03225806" y2="17.6129032" id="直线-3" stroke="#128CFB" stroke-width="6" stroke-linecap="round"></line>
+                            <line x1="12.5806452" y1="3.35483871" x2="15.9354839" y2="6.70967742" id="直线-3" stroke="#128CFB" stroke-width="6" stroke-linecap="round"></line>
+                            <line x1="48.1156519" y1="2.39999418" x2="46.7912388" y2="6.16505375" id="直线-3" stroke="#128CFB" stroke-width="6" stroke-linecap="round"></line>
+                            <line x1="59.6447279" y1="14.351256" x2="56.7848018" y2="16.9093925" id="直线-3" stroke="#128CFB" stroke-width="6" stroke-linecap="round"></line>
+                            <line x1="31.0322581" y1="0" x2="31.0322581" y2="3.35483871" id="直线-3" stroke="#128CFB" stroke-width="6" stroke-linecap="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

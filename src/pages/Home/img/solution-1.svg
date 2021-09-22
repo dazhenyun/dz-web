@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>知识图谱方案</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TNT-首页" transform="translate(-437.000000, -2006.000000)">
+            <g id="04" transform="translate(1.000000, 1769.000000)">
+                <g id="矩形-2" transform="translate(414.000000, 211.000000)">
+                    <g id="知识图谱方案" transform="translate(22.000000, 26.000000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="88" height="88"></rect>
+                        <g id="编组-18" transform="translate(7.000000, 7.000000)">
+                            <line x1="16.3855422" y1="17.313253" x2="23.1325301" y2="24.060241" id="路径" stroke="#126BFB" stroke-width="6" stroke-linecap="square" stroke-linejoin="round"></line>
+                            <line x1="49.1566265" y1="18.2771084" x2="46.2650602" y2="21.1686747" id="路径" stroke="#126BFB" stroke-width="6" stroke-linecap="square" stroke-linejoin="round"></line>
+                            <line x1="56.8674699" y1="56.8313253" x2="46.2650602" y2="43.3373494" id="路径" stroke="#126BFB" stroke-width="6" stroke-linecap="square" stroke-linejoin="round"></line>
+                            <line x1="21.2048193" y1="52.0120482" x2="27.9518072" y2="45.2650602" id="路径" stroke="#126BFB" stroke-width="6" stroke-linecap="square" stroke-linejoin="round"></line>
+                            <path d="M9.5,18.1686747 C13.0897875,18.1686747 16,15.2584622 16,11.6686747 C16,8.0788222 13.0897875,5.1686747 9.5,5.1686747 C5.9101475,5.1686747 3,8.0788222 3,11.6686747 C3,15.2584622 5.9101475,18.1686747 9.5,18.1686747 Z" id="路径" stroke="#128CFB" stroke-width="6" fill="#128CFB" stroke-linecap="square" stroke-linejoin="round"></path>
+                            <path d="M9,2.1686747 C4.02943725,2.1686747 0,6.42196958 0,11.6686747 C0,16.9153798 4.02943725,21.1686747 9,21.1686747" id="路径" fill="#3AA1FF"></path>
+                            <circle id="椭圆形" fill="#128CFB" cx="13.5" cy="59.5" r="12.5"></circle>
+                            <path d="M14,47 C6.82029825,47 1,52.5964406 1,59.5 C1,66.4035594 6.82029825,72 14,72" id="路径" fill="#3AA1FF"></path>
+                            <circle id="椭圆形" fill="#128CFB" cx="61" cy="61" r="14"></circle>
+                            <path d="M61,75 C68.7319865,75 75,68.7319865 75,61 C75,53.2680135 68.7319865,47 61,47" id="路径" fill="#3AA1FF"></path>
+                            <path d="M34.6987952,47.1927711 C42.6836747,47.1927711 49.1566265,40.7198193 49.1566265,32.7349398 C49.1566265,24.7500602 42.6836747,18.2771084 34.6987952,18.2771084 C26.7139157,18.2771084 20.2409639,24.7500602 20.2409639,32.7349398 C20.2409639,40.7198193 26.7139157,47.1927711 34.6987952,47.1927711 Z" id="路径" stroke="#FCBE00" stroke-width="6" fill="#FCBE00" stroke-linecap="square" stroke-linejoin="round"></path>
+                            <path d="M34.6987952,15.3855422 C25.1169875,15.3855422 17.3493976,23.1531321 17.3493976,32.7349398 C17.3493976,42.3167475 25.1169875,50.0843373 34.6987952,50.0843373" id="路径" fill="#FFD92E"></path>
+                            <circle id="椭圆形" fill="#128CFB" cx="56.2650602" cy="10.2048193" r="10"></circle>
+                            <path d="M56.2650602,20.2048193 C61.7879077,20.2048193 66.2650602,15.7276668 66.2650602,10.2048193 C66.2650602,4.68197178 61.7879077,0.204819277 56.2650602,0.204819277" id="路径" fill="#3AA1FF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

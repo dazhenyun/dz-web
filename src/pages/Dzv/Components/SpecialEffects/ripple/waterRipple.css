@@ -1,0 +1,41 @@
+@keyframes dripple {
+    0% {
+        transform: translate(50%) rotateX(75deg) scale(0.2);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(50%) rotateX(75deg) scale(3);
+    }
+}
+
+.waterRipple {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+.waterRipple:before,
+.waterRipple:after {
+    content: '';
+    position: absolute;
+    z-index: 10;
+    top: 55%;
+    right: 50%;
+    transform: translate(50%) rotateX(75deg);
+    border-radius: 50%;
+    opacity: 0;
+    width: 75%;
+    height: 75%;
+    border: 2px solid skyblue;
+    animation: dripple 2s ease-out 1s infinite;
+}
+
+.waterRipple:after {
+    animation: dripple 2s ease-out 1.7s infinite;
+}

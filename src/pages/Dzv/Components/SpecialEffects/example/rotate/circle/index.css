@@ -1,0 +1,15 @@
+.rotateRoot {
+	background: #040a1a;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rotateCircle {
+    background: url('../../images/dizuo.png');
+    width: 136px;
+    height: 136px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    margin-right: 20px;
+}

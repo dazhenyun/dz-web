@@ -1,0 +1,88 @@
+.g-tools {
+    margin: 0 auto;
+    height: calc(100vh - 64px);
+    background: #f1f4f9;
+    overflow: auto;
+
+    .wrap-main {
+        width: 1100px;
+        margin: 0 auto;
+        padding: 40px 0;
+
+        .wrap-group {
+            background: #fff;
+            margin-bottom: 24px;
+            border-radius: 10px;
+
+            h2 {
+                padding: 16px 36px 13px 36px;
+                border-bottom: 1px solid #f1f4f9;
+                line-height: 16px;
+                color: #3c3c3c;
+                font-size: 16px;
+                margin: 0;
+            }
+
+            .m-ul {
+                margin: 0;
+                padding: 15px;
+
+                li {
+                    float: left;
+                    list-style: none;
+                    cursor: pointer;
+                    width: 192px;
+                    transition: all 0.5s;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    padding: 14px;
+                    margin: 0 10px;
+                    cursor: pointer;
+
+                    img {
+                        float: left;
+                        width: 26px;
+                        height: 26px;
+                    }
+
+                    p {
+                        margin-left: 32px;
+                        margin-bottom: 0;
+                        color: #777;
+                        font-size: 12px;
+                        height: 3em;
+                        line-height: 1.5em;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                    }
+
+                    h3 {
+                        font-weight: bold;
+                        margin-left: 32px;
+                        color: #3c3c3c;
+                        font-size: 14px;
+                        white-space: nowrap;
+                        height: 21px;
+                        line-height: 21px;
+                        margin-bottom: 4px;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                    }
+
+                    &:hover {
+                        background-color: #f2f8fd;
+
+                        h3 {
+                            text-decoration: underline;
+                            color: #F44336;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

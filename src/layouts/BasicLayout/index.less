@@ -1,0 +1,98 @@
+@header_height:60px;
+
+.g-header{
+    position: relative;
+    height: @header_height;
+    line-height: @header_height;
+    background: #fff;
+    box-shadow: 0 2px 8px #f0f1f2;
+    z-index: 101;
+    .logo{
+        float: left;
+        margin-left: 30px;
+        background: url("../../resources/images/logo.png") no-repeat;
+        background-size: cover;
+        width: 46px;
+        height: 38px;
+        margin-top: 11px;
+    }
+    .ul{
+        float: right;
+        margin: 0 20px 0 0;
+        padding: 0;
+        li{
+            position: relative;
+            float: left;
+            list-style: none;
+            height: @header_height;
+            line-height: @header_height;
+            border-top: 2px solid transparent;
+            padding: 0 20px;
+            cursor: pointer;
+            color: #314659;
+			transition: all 0.5s;
+			margin-left: 10px;
+			user-select: none;
+            &:hover{
+                color: #126BFB;
+            }
+            .new-dot{
+                position: absolute;
+                right: 8px;
+                top: 23px;
+                width: 6px;
+                height: 6px;
+                background: #f5222d;
+                border-radius: 100%;
+			}
+			&:after {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				height: 2px;
+				content: "";
+				background: transparent;
+			}
+			&.active::after{
+				color: #126BFB;
+			}
+			&.active::after{
+				border-bottom: 2px solid #126BFB;
+			}
+        }
+    }
+}
+.g-header2{
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    box-shadow: none;
+    max-width: 1200px;
+    width: 100%;
+    background: transparent;
+    .logo{
+        background: url("../../resources/images/logo.svg") no-repeat;
+        background-size: 100% 100%;
+        width: 72px;
+        height: 40px;
+		margin: 0;
+		margin-top: 15px;
+    }
+    .ul{
+        margin: 0;
+        li{
+            color: #fff;
+            opacity: 1;
+            padding: 0 25px;
+            .new-dot{
+                right: 15px;
+            }
+            &:hover{
+                border-top: 2px solid transparent;
+                color: #fff;
+                opacity: 0.8;
+            }
+        }
+    }
+}

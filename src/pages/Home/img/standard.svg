@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="394px" height="250px" viewBox="0 0 394 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>编组 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="129" height="113"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TNT-首页" transform="translate(-551.000000, -1420.000000)">
+            <g id="03" transform="translate(0.000000, 1199.000000)">
+                <g id="设计规范" transform="translate(415.000000, 221.000000)">
+                    <g id="编组-8" transform="translate(136.000000, 0.000000)">
+                        <rect id="矩形" fill="#CCEDFF" x="87" y="0" width="50" height="250"></rect>
+                        <rect id="矩形" fill="#CCEDFF" x="166" y="0" width="50" height="250"></rect>
+                        <rect id="矩形" fill="#CCEDFF" x="245" y="0" width="50" height="250"></rect>
+                        <rect id="矩形" fill="#CCEDFF" x="324" y="0" width="50" height="250"></rect>
+                        <line x1="87.5" y1="119.666667" x2="393.5" y2="119.666667" id="直线-2" stroke="#78D0FF" stroke-linecap="square"></line>
+                        <line x1="87.5" y1="176.333333" x2="393.5" y2="176.333333" id="直线-2" stroke="#78D0FF" stroke-linecap="square"></line>
+                        <line x1="87.5" y1="233" x2="393.5" y2="233" id="直线-2" stroke="#78D0FF" stroke-linecap="square"></line>
+                        <line x1="87.5" y1="63" x2="393.5" y2="63" id="直线-2" stroke="#78D0FF" stroke-linecap="square"></line>
+                        <path d="M149,0 C148.99924,34.2413395 121.241339,61.9992395 87,62 L87,0 L149,0 Z" id="路径" fill="#10C2FF" fill-rule="nonzero"></path>
+                        <path d="M116.032258,0 C116.031543,16.033777 103.033777,29.0315426 87,29.0322581 L87,45 C111.85246,44.9991462 131.999146,24.8524601 132,0 L116.032258,0 Z" id="路径" fill="#65D8FF" fill-rule="nonzero" opacity="0.598558408"></path>
+                        <g id="形状" transform="translate(245.000000, 120.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="蒙版" fill="#128CFB" xlink:href="#path-1"></use>
+                            <path d="M114,40 C118.970563,40 123,44.2532949 123,49.5 C123,54.7467051 118.970563,59 114,59 C109.029437,59 105,54.7467051 105,49.5 C105,44.2532949 109.029437,40 114,40 L114,40 Z M123.108342,119 L1.88895022,119 C-3.91983596,119 -7.11191408,112.294697 -3.42097825,107.842716 L30.0239197,67.4894281 C31.330205,65.913298 33.278823,65 35.3353783,65 C37.3919337,65 39.3405517,65.913298 40.646837,67.4894281 L70.4344641,103.433251 C71.7407494,105.009381 73.6893674,105.922679 75.7459227,105.922679 C77.8024781,105.922679 79.751096,105.009381 81.0573814,103.433251 L97.6023226,83.4722213 C98.9086079,81.8960911 100.857226,80.9827932 102.913781,80.9827932 C104.970337,80.9827932 106.918955,81.8960911 108.22524,83.4722213 L128.424391,107.845753 C132.109206,112.294697 128.920189,119 123.108342,119 L123.108342,119 Z" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        </g>
+                        <text id="Aa" font-family="ArialMT, Arial" font-size="78" font-weight="normal" fill="#FCBE00">
+                            <tspan x="100" y="176">Aa</tspan>
+                        </text>
+                        <rect id="矩形" fill="#17C5FF" x="0" y="183" width="110" height="50" rx="25"></rect>
+                        <g id="编组-12" transform="translate(166.000000, 16.000000)">
+                            <rect id="矩形" fill="#FCBE00" x="0" y="0" width="15" height="3"></rect>
+                            <rect id="矩形" fill="#00BFFF" x="0" y="8" width="50" height="1"></rect>
+                            <rect id="矩形" fill="#00BFFF" x="0" y="14" width="50" height="1"></rect>
+                            <rect id="矩形" fill="#00BFFF" x="0" y="20" width="50" height="1"></rect>
+                            <rect id="矩形" fill="#00BFFF" x="0" y="26" width="50" height="1"></rect>
+                        </g>
+                        <g id="编组-12" transform="translate(324.000000, 16.000000)">
+                            <rect id="矩形" fill="#FCBE00" x="0" y="0" width="15" height="3"></rect>
+                            <rect id="矩形" fill="#00BFFF" x="0" y="8" width="50" height="1"></rect>
+                            <rect id="矩形" fill="#00BFFF" x="0" y="14" width="50" height="1"></rect>
+                            <rect id="矩形" fill="#00BFFF" x="0" y="20" width="50" height="1"></rect>
+                            <rect id="矩形" fill="#00BFFF" x="0" y="26" width="50" height="1"></rect>
+                        </g>
+                        <g id="图片" transform="translate(242.000000, 158.000000)"></g>
+                        <g id="箭头" transform="translate(31.000000, 196.000000)" fill-rule="nonzero">
+                            <rect id="矩形" fill="#000000" opacity="0" x="24" y="0" width="24" height="24"></rect>
+                            <path d="M47.2,11.3 L38,2.59999999 C37.6,2.19999998 37,2.19999998 36.6,2.59999999 C36.2,3 36.2,3.6 36.6,4.00000001 L44,11 L1.49999999,11 C0.9,11 0.499999992,11.4 0.499999992,12 C0.499999992,12.6 0.9,13 1.49999999,13 L44,13 L36.6,20 C36.2,20.4 36.2,21 36.6,21.4 C36.8,21.6 37.1,21.7 37.3,21.7 C37.5,21.7 37.8,21.6 38,21.4 L47.2,12.7 C47.4,12.5 47.5,12.2 47.5,12 C47.5,11.8 47.4,11.5 47.2,11.3 Z" id="路径" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

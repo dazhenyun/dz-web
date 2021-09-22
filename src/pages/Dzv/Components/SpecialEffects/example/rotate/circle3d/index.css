@@ -1,0 +1,51 @@
+.rotateRoot {
+	background: #040a1a;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rotateCircle3 {
+    position: relative;
+    width: 136px;
+    height: 136px;
+    perspective: 500;
+    -webkit-perspective: 500;
+    margin: 0 auto;
+}
+
+.circleLeft3d {
+    width: 136px;
+    height: 136px;
+    background: url('../../images/dizuo.png');
+    background-repeat: no-repeat;
+}
+
+.circleRight3d {
+    width: 136px;
+    height: 136px;
+    background-image: url('../../images/dizuo.png');
+    background-repeat: no-repeat;
+}
+
+.rotateCircleGroup .circleLeft3d {
+    position: absolute;
+    background: url(../../images/dizuo.png);
+    width: 136px;
+    height: 136px;
+    background-repeat: no-repeat;
+    top: -26px;
+    left: 0;
+}
+
+.rotateCircleGroup .circleRight3d {
+    position: absolute;
+    background: url(../../images/dizuo.png);
+    width: 136px;
+    height: 136px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,21 @@
+@keyframes circleLeft3d {
+    0% {
+        transform: rotateX(calc(var(--transform-rotate) * 75deg)) scale(calc(var(--transform-scale) * 0.8)) rotateZ(var(--transform-rotate360));
+    }
+
+    100% {
+        transform: rotateX(calc(var(--transform-rotate) * 75deg)) scale(calc(var(--transform-scale) * 0.8)) rotateZ(0deg);
+    }
+}
+
+.circleLeft3d {
+    transform: rotateX(calc(var(--transform-rotate) * 75deg)) scale(calc(var(--transform-scale) * 0.8)) rotateZ(0deg);
+    animation-name: circleLeft3d;
+    /* 动画指定需要多少秒或毫秒完成 */
+    animation-duration: calc(var(--animate-duration) * 6);
+    /* 动画将如何完成一个周期 */
+    animation-timing-function: linear;
+    /* 定义动画应该播放多少次 */
+    animation-iteration-count: infinite;
+}
+

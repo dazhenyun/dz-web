@@ -1,0 +1,32 @@
+@keyframes drip {
+    45% {
+        bottom: 0;
+        border-radius: 100% 5% 100% 100%;
+    }
+
+    100% {
+        bottom: 0;
+        border-radius: 100%;
+        opacity: 0;
+    }
+}
+
+
+.waterDrop {
+    position: absolute;
+    border-radius: 100% 5% 100% 100%;
+    margin: 0px;
+    bottom: 30%;
+    background: deepskyblue;
+    left: 50%;
+    transform: rotate(-45deg) translate(-50%, -50%);
+    height: 20px;
+    width: 20px;
+    animation-name: drip;
+    /* 动画指定需要多少秒或毫秒完成 */
+    animation-duration: calc(var(--animate-duration) * 4);
+    /* 动画将如何完成一个周期 */
+    animation-timing-function: linear;
+    /* 定义动画应该播放多少次 */
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>编组</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.171308594 0.0128515625 15.8420117 0.0128515625 15.8420117 57.000125 0.171308594 57.000125"></polygon>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TNT-首页" transform="translate(-465.000000, -894.000000)">
+            <g id="02" transform="translate(0.000000, 600.000000)">
+                <g id="快速接入" transform="translate(415.000000, 230.000000)">
+                    <g id="编组" transform="translate(90.000000, 90.000000) rotate(-315.000000) translate(-90.000000, -90.000000) translate(57.000000, 55.000000)">
+                        <polygon id="Fill-1" fill="#FFD92E" points="28.8821094 64.8459766 34.5884766 64.8459766 34.5884766 53.1587109 28.8821094 53.1587109"></polygon>
+                        <polygon id="Fill-2" fill="#FCBE00" points="32.9836719 64.8459766 37.0855078 64.8459766 37.0855078 53.1587109 32.9836719 53.1587109"></polygon>
+                        <polygon id="Fill-3" fill="#FCBE00" points="45.6082812 69.9871484 53.8116797 69.9871484 53.8116797 53.1587109 45.6082812 53.1587109"></polygon>
+                        <polygon id="Fill-4" fill="#FFD92E" points="12.1556641 69.9871484 20.3593359 69.9871484 20.3593359 53.1587109 12.1556641 53.1587109"></polygon>
+                        <polygon id="Fill-5" fill="#126BFB" points="8.09919141 28.0013398 -2.734375e-05 42.9988398 -2.734375e-05 57.2605195 17.3129414 57.2605195 25.5163398 28.0013398"></polygon>
+                        <polygon id="Fill-6" fill="#126BFB" points="40.451168 28.0013398 48.6545664 57.2605195 65.9672617 57.2605195 65.9672617 42.9988398 57.8683164 28.0013398"></polygon>
+                        <g transform="translate(17.226562, 0.260586)">
+                            <path d="M17.3617227,57.0000156 L0.0862148438,57.0000156 L0.0862148438,25.0176719 C0.0862148438,16.2750547 4.35293359,8.04923437 11.4989492,3.01333594 L15.7571914,0.01290625 C15.7571914,0.01290625 17.3617227,16.2750547 17.3617227,25.0176719 L17.3617227,57.0000156 Z" id="Fill-7" fill="#3AA1FF"></path>
+                            <g transform="translate(15.585938, 0.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-10"></g>
+                                <path d="M4.42900391,3.01371875 L0.171308594,0.0127421875 L0.171308594,57.000125 L15.8420117,57.000125 L15.8420117,25.0175078 C15.8420117,16.2751641 11.5755664,8.04961719 4.42900391,3.01371875" id="Fill-9" fill="#128CFB" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

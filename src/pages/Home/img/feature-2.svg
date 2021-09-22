@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="59px" viewBox="0 0 71 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>编组 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.7998184,-4.43546435 L32.8139029,-4.43546435 L32.8139029,43.3106844 L26.3068607,50.7473041 L19.7998184,43.3106844 L19.7998184,-4.43546435 Z" id="path-1"></path>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TNT-首页" transform="translate(-787.000000, -897.000000)">
+            <g id="02" transform="translate(0.000000, 600.000000)">
+                <g id="简单易用" transform="translate(730.000000, 230.000000)">
+                    <g id="编组-4" transform="translate(57.000000, 67.000000)">
+                        <rect id="矩形" fill="#126BFB" x="33.4647887" y="0" width="26.028169" height="26.028169"></rect>
+                        <rect id="矩形" fill="#126BFB" x="0" y="0" width="26.028169" height="26.028169"></rect>
+                        <polygon id="矩形" fill="#3AA1FF" points="0 31.6056338 50.1971831 31.6056338 30.9102663 57.6338028 0 57.6338028"></polygon>
+                        <g id="路径-3" transform="translate(20.450704, 10.225352)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="蒙版" fill="#FCBE00" transform="translate(22.515928, 26.465724) rotate(-322.000000) translate(-22.515928, -26.465724) " xlink:href="#path-1"></use>
+                            <polygon fill="#FFD92E" mask="url(#mask-2)" points="45 4.84117621 10.5539902 47.9338017 10.0048112 38.0675302 39.4002756 0.443051519"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
