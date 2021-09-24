@@ -1,64 +1,84 @@
 import React from "react";
-const Frame1 = React.lazy(() => import("./Components/Frame1"));
-const Dashboard = React.lazy(() => import("./Components/Dashboard"));
 const Color = React.lazy(() => import("./Components/Color"));
+const BrandWall = React.lazy(() => import("./Components/BrandWall"));
 const ColorBigbang = React.lazy(() => import("./Components/ColorBigbang"));
 const DigitaFonts = React.lazy(() => import("./Components/DigitaFonts"));
 // const Typography = React.lazy(() => import("./Components/Typography"));
-// const BaseTable = React.lazy(() => import("./Components/BaseTable"));
-const CardScene = React.lazy(() => import("./Components/CardScene"));
-const ListScene = React.lazy(() => import("./Components/ListScene"));
+
+const Frame1 = React.lazy(() => import("./Components/Frame1"));
+const Frame2 = React.lazy(() => import("./Components/Frame2"));
+const Frame3 = React.lazy(() => import("./Components/Frame3"));
+const Frame4 = React.lazy(() => import("./Components/Frame4"));
+const Frame5 = React.lazy(() => import("./Components/Frame5"));
+const Frame6 = React.lazy(() => import("./Components/Frame6"));
+const Frame7 = React.lazy(() => import("./Components/Frame7"));
 
 const Menu = [
 	{
-		title: "Color",
+		title: "色彩规范",
 		code: "color",
 		component: Color
+	},
+	{
+		title: "LOGO 品牌墙",
+		code: "brandWall",
+		component: BrandWall,
+		notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
 	},
 	// {
 	// 	title: "字体规范",
 	// 	code: "typography",
 	// 	component: Typography
 	// },
-	// {
-	// 	title: "基础表格",
-	// 	code: "baseTable",
-	// 	component: BaseTable
-	// },
-	{
-		title: "色彩大爆炸🔥",
-		code: "colorBigbang",
-		component: ColorBigbang
-		// notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
-	},
 	{
 		title: "数字字体",
 		code: "DigitalFonts",
 		component: DigitaFonts
 	},
 	{
-		title: "设计场景化",
+		title: "色彩大爆炸",
+		code: "colorBigbang",
+		component: ColorBigbang
+		// notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
+	},
+	{
+		title: "设计场景化🔥",
 		code: "scene",
 		children: [
 			{
-				title: "业务规范",
+				title: "全局导航",
 				code: "frame1",
 				component: Frame1
 			},
 			{
-				title: "大盘统计",
-				code: "dashboard",
-				component: Dashboard
+				title: "二级导航",
+				code: "frame2",
+				component: Frame2
 			},
 			{
-				title: "卡片场景",
-				code: "cardScene",
-				component: CardScene
+				title: "筛选",
+				code: "frame3",
+				component: Frame3
 			},
 			{
-				title: "列表场景",
-				code: "listScene",
-				component: ListScene
+				title: "表格",
+				code: "frame4",
+				component: Frame4
+			},
+			{
+				title: "按钮",
+				code: "frame5",
+				component: Frame5
+			},
+			{
+				title: "表单",
+				code: "frame6",
+				component: Frame6
+			},
+			{
+				title: "数据格式字体",
+				code: "frame7",
+				component: Frame7
 			}
 		]
 	}

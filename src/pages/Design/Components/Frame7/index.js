@@ -1,6 +1,6 @@
 /*
  * @CreatDate: 2021-09-15 17:05:17
- * @Describe: 全局导航
+ * @Describe: 数据格式字体
  */
 
 import { useState, Fragment } from "react";
@@ -16,14 +16,9 @@ export default () => {
 
 	const urlList = [
 		{
-			title: "全局菜单导航",
+			title: "场景1",
 			name: "1",
-			src: "http://10.1.20.82:8076/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8CUI%E8%A7%84%E8%8C%83/html/%E9%A1%B9%E7%9B%AE%E5%9C%BA%E6%99%AF/%E5%89%8D%E7%AB%AF%E7%94%A8/%E5%AF%BC%E8%88%AA/index.html#artboard0"
-		},
-		{
-			title: "全局导航面包屑",
-			name: "2",
-			src: "http://10.1.20.82:8076/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8CUI%E8%A7%84%E8%8C%83/html/%E9%A1%B9%E7%9B%AE%E5%9C%BA%E6%99%AF/%E5%89%8D%E7%AB%AF%E7%94%A8/%E5%AF%BC%E8%88%AA/index.html#artboard1"
+			src: "http://10.1.20.82:8076/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8CUI%E8%A7%84%E8%8C%83/html/%E9%A1%B9%E7%9B%AE%E5%9C%BA%E6%99%AF/%E5%89%8D%E7%AB%AF%E7%94%A8/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E5%AD%97%E4%BD%93/index.html#artboard0"
 		}
 	];
 
@@ -32,7 +27,7 @@ export default () => {
 	return (
 		<div>
 			<Title
-				title='全局导航'
+				title='数据格式字体'
 				description="基于业务抽离的视觉设计规范"
 			/>
 			<MdPreviewer md={BaseMd}></MdPreviewer>

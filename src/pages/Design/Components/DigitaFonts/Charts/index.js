@@ -80,7 +80,7 @@ export default () => {
 	const ChangeFontSize = (record) => {
 		setFontSize(record);
 	};
-	const fontList = ["Futura-LT-Medium", "DINPro-Medium", "Helvetica-Thin", "Oswald-Light", "DS-DIGIB"];
+	const fontList = ["Futura-LT-Medium", "DINPro-Medium", "Helvetica-Thin", "Oswald-Light", "BEBAS-1"];
 	const fontAbout = {
 		"Futura-LT-Medium": {
 			text: "着重加粗，适合大屏数据展示。",
@@ -108,6 +108,11 @@ export default () => {
 			text: "时钟字体，适合大屏，时间范围数据展示。",
 			downLink: "../font/DS-DIGIB.ttf",
 			fontName: "DS-DIGIB.ttf"
+		},
+		"BEBAS-1": {
+			text: "数据格式数据展示。",
+			downLink: "../font/BEBAS-1.ttf",
+			fontName: "BEBAS-1.ttf"
 		}
 	};
 	const fontSizeList = ["30", "40", "50"];

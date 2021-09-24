@@ -1,24 +1,34 @@
 export const primaryColorMap = {
 	title: "Primary",
-	color: "#126BFB",
-	subList: ["#2a7afb", "#4189fc", "#5a98fc", "#71a6fd", "#89b5fd", "#a0c4fd", "#b8d3fe", "#d0e1fe", "#e8f0ff"]
+	color: "#1890FF",
+	subList: ["#002766", "#003A8C", "#0050B3", "#096DD9", "#1890FF", "#40A9FF", "#69C0FF", "#91D5FF", "#BAE7FF", "#E6F7FF"]
 };
 
 export const subColorList = [
 	{
-		title: "Error",
-		color: "#EF6555",
-		subList: ["#fce0dd", "#fdf0ee"]
+		title: "链接",
+		color: "#1890FF",
+		subList: []
 	},
 	{
-		title: "Warning",
-		color: "#F7B035",
-		subList: ["#fdefd7", "#fef7ea"]
+		title: "成功",
+		color: "#52C41A",
+		subList: []
 	},
 	{
-		title: "Success",
-		color: "#07C790",
-		subList: ["#cdf4e9", "#e6f9f4"]
+		title: "警告",
+		color: "#FAAD14",
+		subList: []
+	},
+	{
+		title: "错误",
+		color: "#FF4D4F",
+		subList: []
+	},
+	{
+		title: "失败",
+		color: "#D0D0D0",
+		subList: []
 	}
 ];
 
@@ -26,53 +36,63 @@ export const subColorList = [
 export const applyColorList = [
 	{
 		title: "极客蓝",
-		color: "#5B8FF9",
-		subList: ["#7DA4F8", "#9EBAF9", "#BDD2FD", "#DEE9FE"]
+		color: "#52B0FE",
+		subList: []
 	},
 	{
 		title: "翡翠绿",
-		color: "#5AD8A6",
-		subList: ["#6EE0B7", "#88E7C9", "#BDEFDB", "#DEF7ED"]
-	},
-	{
-		title: "商务灰",
-		color: "#5D7092",
-		subList: ["#7D8DA8", "#9EA9BE", "#BEC6D3", "#DFE2E9"]
+		color: "#49D2CD",
+		subList: []
 	},
 	{
 		title: "旭日黄",
-		color: "#F6BD16",
-		subList: ["#F8C956", "#FAD678", "#FBE5A1", "#FDF2D0"]
-	},
-	{
-		title: "薄暮红",
-		color: "#E86452",
-		subList: ["#EC8172", "#EF9F93", "#F6C1BA", "#FAE0DC"]
-	},
-	{
-		title: "破晓蓝",
-		color: "#6DC8EC",
-		subList: ["#87D2F0", "#A3DDF3", "#C5E9F7", "#E2F4FB"]
-	},
-	{
-		title: "罗兰紫",
-		color: "#945FB9",
-		subList: ["#A97DC7", "#BD9CD5", "#D4BFE3", "#EADFF1"]
+		color: "#FEB052",
+		subList: []
 	},
 	{
 		title: "落日橘",
-		color: "#FF9845",
-		subList: ["#F5AB5C", "#F7BF7F", "#FFD6B5", "#FFEADA"]
+		color: "#FE8656",
+		subList: []
+	},
+	{
+		title: "金盏花",
+		color: "#DDC530",
+		subList: []
+	},
+	{
+		title: "日出",
+		color: "#FEC94F",
+		subList: []
+	},
+	{
+		title: "拂晓蓝",
+		color: "#6889F6",
+		subList: []
+	},
+	{
+		title: "极光绿",
+		color: "#BFE74A",
+		subList: []
 	},
 	{
 		title: "天水青",
-		color: "#1E9493",
-		subList: ["#55A9A9", "#7ABEBD", "#A6D4D4", "#D2EAE9"]
+		color: "#80D44F",
+		subList: []
 	},
 	{
 		title: "桃花粉",
-		color: "#FF99C3",
-		subList: ["#F3ACCE", "#F6C0DA", "#FFD6E7", "#FFEBF3"]
+		color: "#FE5D5F",
+		subList: []
+	},
+	{
+		title: "罗兰紫",
+		color: "#9B64E0",
+		subList: []
+	},
+	{
+		title: "法式洋红",
+		color: "#F668B2",
+		subList: []
 	}
 ];
 
@@ -82,43 +102,43 @@ export const middleColorList = [
 	{
 		name: "title",
 		title: "标题",
-		color: "#17233D",
+		color: "#262626",
 		textColor: "#fff"
 	},
 	{
 		name: "text",
 		title: "正文",
-		color: "#454f64",
+		color: "#595959",
 		textColor: "#fff"
 	},
-	{
-		name: "sub",
-		title: "辅助",
-		color: "#8b919e",
-		textColor: "#fff"
-	},
-	{
-		name: "failure",
-		title: "失效",
-		color: "#babdc5",
-		textColor: "#454f64"
-	},
+	// {
+	// 	name: "sub",
+	// 	title: "辅助",
+	// 	color: "#8b919e",
+	// 	textColor: "#fff"
+	// },
+	// {
+	// 	name: "failure",
+	// 	title: "失效",
+	// 	color: "#babdc5",
+	// 	textColor: "#454f64"
+	// },
 	{
 		name: "border",
 		title: "边框",
-		color: "#b2becd",
+		color: "#D9D9D9",
 		textColor: "#454f64"
 	},
 	{
 		name: "divider",
 		title: "分割线",
-		color: "#e1e6ee",
+		color: "#F0F0F0",
 		textColor: "#454f64"
 	},
 	{
 		name: "bg",
 		title: "背景",
-		color: "#f1f2f5",
+		color: "#EFEFEF",
 		textColor: "#454f64"
 	}
 ];

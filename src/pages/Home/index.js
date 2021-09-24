@@ -7,28 +7,16 @@ import { routerRedux } from "dva/router";
 
 const solutionList = [
 	{
-		name: "知识图谱方案",
-		des: "D3图谱可视化方案，数据驱动、高度易用、配置简单",
-		url: "/solution/knowledgeMap",
+		name: "2D可视化方案",
+		des: "罗列常见的图表类型，开箱即用、配置简单",
+		url: "/dzv/quickStart",
 		src: require("./img/solution-1.svg")
 	},
 	{
-		name: "国际化方案",
-		des: "语言国际化方案，多语言支持、高度易用、配置简单",
-		url: "/solution/i18n",
-		src: require("./img/solution-2.svg")
-	},
-	{
-		name: "流程图方案",
-		des: "采用SVG技术绘制，基于事件驱动的自研流程图框架",
-		url: "/solution/mmEditorSolution",
+		name: "3D可视化方案",
+		des: "采用3D绘图技术，封装自用组件，简单易用",
+		url: "/dzv/maps",
 		src: require("./img/solution-3.svg")
-	},
-	{
-		name: "兼容性方案",
-		des: "兼容低版本浏览器，秉承高版本优雅，低版本兼容",
-		url: "/solution/compatibility",
-		src: require("./img/solution-4.svg")
 	}
 ];
 
@@ -107,6 +95,23 @@ const HomePage = props => {
 					</Row>
 				</div>
 			</div>
+			<div className="solution" style={{ background: "#fff" }}>
+				<div className="u-title">DZV<i></i></div>
+				<ul className="ul clearfix">
+					{
+						solutionList &&
+						solutionList.map((item, index) => {
+							return (
+								<li key={index} onClick={() => goToLink(item.url)}>
+									<span className="s1"><img src={item.src} /></span>
+									<p className="p1">{item.name}</p>
+									<p className="p2">{item.des}</p>
+								</li>
+							);
+						})
+					}
+				</ul>
+			</div>
 			<div className="design">
 				<div className="u-title">设计语言<i></i></div>
 				<div className="design-in clearfix">
@@ -148,7 +153,7 @@ const HomePage = props => {
 						<li><a href="http://10.1.20.101:8660/" target="_blank">禅道</a></li>
 					</ul>
 					<ul style={{ float: "right" }}>
-						<li><span>意见反馈</span></li>
+						{/* <li><span>意见反馈</span></li> */}
 						{/* <li><img src={require("./img/ewm.jpg")} /></li> */}
 					</ul>
 				</div>

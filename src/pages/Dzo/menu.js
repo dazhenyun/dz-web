@@ -5,6 +5,7 @@ const Standard = React.lazy(() => import("./Components/Standard"));
 const Recommend = React.lazy(() => import("./Components/Recommend"));
 const Babel = React.lazy(() => import("./Components/Babel"));
 
+const ComIntroduce = React.lazy(() => import("./Components/ComIntroduce"));
 const ComIcon = React.lazy(() => import("./Components/ComIcon"));
 const DynamicFieldSet = React.lazy(() => import("./Components/DynamicFieldSet"));
 const GForm = React.lazy(() => import("./Components/GForm"));
@@ -51,6 +52,11 @@ const Menu = [
 		title: "组件",
 		code: "commonComponents",
 		children: [
+			{
+				title: "快速入门",
+				code: "comIntroduce",
+				component: ComIntroduce
+			},
 			{
 				title: "ComIcon 自定义Icon",
 				code: "comIcon",

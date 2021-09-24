@@ -15,7 +15,7 @@
 		"@dzc/formula-edit": "^1.0.0",
 		"@dzc/text-avatar": "^1.0.0",
 		"@dzo/com": "^1.0.1",
-		"@dzv/charts": "^1.0.0",
+		"@dzv/charts": "^1.0.1",
 		"@dzv/three-map": "^1.0.0",
 		"@tntd/hooks": "^1.0.5",
 		"@tntd/utils": "^1.0.0",

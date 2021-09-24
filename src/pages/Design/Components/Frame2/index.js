@@ -1,6 +1,6 @@
 /*
- * @CreatDate: 2021-09-15 17:13:26
- * @Describe: 大盘统计
+ * @CreatDate: 2021-09-15 17:05:17
+ * @Describe: 二级导航
  */
 
 import { useState, Fragment } from "react";
@@ -16,14 +16,14 @@ export default () => {
 
 	const urlList = [
 		{
-			title: "大盘1",
+			title: "场景1",
 			name: "1",
-			src: "http://10.1.20.82:8076/%E8%BF%90%E8%90%A5%E7%AE%A1%E6%8E%A7%E5%B9%B3%E5%8F%B0/%E7%9F%AD%E4%BF%A1%E8%90%A5%E9%94%80%E8%A7%A6%E8%BE%BE%E5%B9%B3%E5%8F%B01.15/html"
+			src: "http://10.1.20.82:8076/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8CUI%E8%A7%84%E8%8C%83/html/%E9%A1%B9%E7%9B%AE%E5%9C%BA%E6%99%AF/%E5%89%8D%E7%AB%AF%E7%94%A8/%E4%BA%8C%E7%BA%A7%E5%AF%BC%E8%88%AA/index.html#artboard1"
 		},
 		{
-			title: "大盘2",
+			title: "场景2",
 			name: "2",
-			src: "http://10.1.20.82:8076/%E8%BF%90%E8%90%A5%E7%AE%A1%E6%8E%A7%E5%B9%B3%E5%8F%B0/%E7%9F%AD%E4%BF%A1%E8%90%A5%E9%94%80%E8%A7%A6%E8%BE%BE%E5%B9%B3%E5%8F%B01.15/html"
+			src: "http://10.1.20.82:8076/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8CUI%E8%A7%84%E8%8C%83/html/%E9%A1%B9%E7%9B%AE%E5%9C%BA%E6%99%AF/%E5%89%8D%E7%AB%AF%E7%94%A8/%E4%BA%8C%E7%BA%A7%E5%AF%BC%E8%88%AA/index.html#artboard0"
 		}
 	];
 
@@ -32,10 +32,9 @@ export default () => {
 	return (
 		<div>
 			<Title
-				title='大盘统计'
-				description="UED对公司内部多个项目大盘进行的总结，有规律可直接借鉴。"
+				title='二级导航'
+				description="基于业务抽离的视觉设计规范"
 			/>
-
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<div>
 				<Tabs
