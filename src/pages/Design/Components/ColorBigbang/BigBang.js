@@ -35,7 +35,7 @@ export default () => {
 			style={{
 				background: colorInput || "#5B8FF9",
 				width: "100%",
-				height: "calc(100vh - 220px)",
+				height: "auto",
 				color: "#126BFB"
 			}}
 		>

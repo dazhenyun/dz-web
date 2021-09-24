@@ -33,7 +33,7 @@ module.exports = {
 	build: {
 		assetsRoot: path.resolve(__dirname, "../dist"),
 		assetsSubDirectory: "static",
-		assetsPublicPath: assetsPublicPath,
+		assetsPublicPath: "/",
 		devtool: "source-map",
 		projectFolderName: "sinan-resource"
 	}
