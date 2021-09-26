@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 1980620 */
+  src: url('iconfont.woff2?t=1632650065871') format('woff2'),
+       url('iconfont.woff?t=1632650065871') format('woff'),
+       url('iconfont.ttf?t=1632650065871') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconcar:before {
+  content: "\ec24";
+}
+
+.icongeren:before {
+  content: "\ec25";
+}
+
+.iconaddress:before {
+  content: "\ec26";
+}
+
+.iconhome:before {
+  content: "\ec27";
+}
+
+.iconeconomy:before {
+  content: "\ec28";
+}
+
+.iconapp:before {
+  content: "\ec29";
+}
+
+.iconphone:before {
+  content: "\ec2a";
+}
+
+.iconcommon-manger:before {
+  content: "\ec2b";
+}
+
+.iconcrime:before {
+  content: "\ec2c";
+}
+
+.iconsetting:before {
+  content: "\ec2e";
+}
+
+.iconshop:before {
+  content: "\ec2f";
+}
+
+.icongongan:before {
+  content: "\ec30";
+}
+
+.iconcloud:before {
+  content: "\ec31";
+}
+
+.iconusers:before {
+  content: "\ec32";
+}
+
+.icongonggao:before {
+  content: "\e618";
+}
+

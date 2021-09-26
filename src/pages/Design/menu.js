@@ -1,6 +1,7 @@
 import React from "react";
 const Color = React.lazy(() => import("./Components/Color"));
 const BrandWall = React.lazy(() => import("./Components/BrandWall"));
+const Iconfont = React.lazy(() => import("./Components/Iconfont"));
 const ColorBigbang = React.lazy(() => import("./Components/ColorBigbang"));
 const DigitaFonts = React.lazy(() => import("./Components/DigitaFonts"));
 // const Typography = React.lazy(() => import("./Components/Typography"));
@@ -22,8 +23,12 @@ const Menu = [
 	{
 		title: "LOGO 品牌墙",
 		code: "brandWall",
-		component: BrandWall,
-		notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
+		component: BrandWall
+	},
+	{
+		title: "Iconfont 图标库",
+		code: "iconfont",
+		component: Iconfont
 	},
 	// {
 	// 	title: "字体规范",
