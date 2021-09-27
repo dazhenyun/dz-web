@@ -12,7 +12,8 @@ import {
     NumRange,
     SearchTree,
     TableBtns,
-    FileUpload
+    FileUpload,
+    Ellipsis
 } from "@dzo/com";
 ```
 
