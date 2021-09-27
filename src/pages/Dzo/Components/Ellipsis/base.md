@@ -1,6 +1,6 @@
 ## 使用
 ```bash
-import { Ellipsis } from "tntd";
+import { Ellipsis } from "@dzo/com";
 ```
 
 ## 代码演示

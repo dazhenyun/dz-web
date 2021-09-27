@@ -15,6 +15,7 @@ const NumRange = React.lazy(() => import("./Components/NumRange"));
 const SearchTree = React.lazy(() => import("./Components/SearchTree"));
 const FileUpload = React.lazy(() => import("./Components/FileUpload"));
 const TableBtns = React.lazy(() => import("./Components/TableBtns"));
+const Ellipsis = React.lazy(() => import("./Components/Ellipsis"));
 
 // const Icon = React.lazy(() => import("./Components/Icon"));
 // const Handle = React.lazy(() => import("./Components/Handle"));
@@ -101,6 +102,11 @@ const Menu = [
 				title: "FileUpload 文件上传",
 				code: "fileUpload",
 				component: FileUpload
+			},
+			{
+				title: "Ellipsis 省略号",
+				code: "ellipsis",
+				component: Ellipsis
 			}
 			// {
 			// 	title: "Icon图标",
@@ -114,12 +120,7 @@ const Menu = [
 			// 	component: Handle,
 			// 	notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
 			// },
-			// {
-			// 	title: "Ellipsis省略号",
-			// 	code: "ellipsis",
-			// 	component: Ellipsis,
-			// 	notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
-			// }
+
 		]
 	}
 	// {

@@ -10,6 +10,16 @@ import PreviewImgModal from "./PreviewImgModal";
 
 const list = [
 	{
+		name: "大箴",
+		list: [
+			{ name: "大箴白", url: require("./img/dz-logo/logo1.png"), isWhite: true },
+			{ name: "大箴蓝", url: require("./img/dz-logo/logo2.png") },
+			{ name: "描边-白", url: require("./img/dz-logo/logo3.png"), isWhite: true },
+			{ name: "描边-蓝", url: require("./img/dz-logo/logo4.png") },
+			{ name: "填充-蓝", url: require("./img/dz-logo/logo5.png") }
+		]
+	},
+	{
 		name: "阿达云",
 		list: [
 			{ name: "阿达云计算上下有英文白", url: require("./img/ada-logo/logo1.png"), isWhite: true },
@@ -20,16 +30,6 @@ const list = [
 			{ name: "纯logo蓝", url: require("./img/ada-logo/logo6.png") },
 			{ name: "阿达云计算左右白", url: require("./img/ada-logo/logo7.png"), isWhite: true },
 			{ name: "阿达云计算左右蓝", url: require("./img/ada-logo/logo8.png") }
-		]
-	},
-	{
-		name: "大箴",
-		list: [
-			{ name: "大箴白", url: require("./img/dz-logo/logo1.png"), isWhite: true },
-			{ name: "大箴蓝", url: require("./img/dz-logo/logo2.png") },
-			{ name: "描边-白", url: require("./img/dz-logo/logo3.png"), isWhite: true },
-			{ name: "描边-蓝", url: require("./img/dz-logo/logo4.png") },
-			{ name: "填充-蓝", url: require("./img/dz-logo/logo5.png") }
 		]
 	},
 	{
