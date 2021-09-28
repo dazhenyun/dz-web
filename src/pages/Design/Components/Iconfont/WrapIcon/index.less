@@ -1,0 +1,104 @@
+.block-icon-list{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+        float: left;
+        width: 100px;
+        text-align: center;
+        overflow: visible;
+        border: 1px dashed transparent;
+        border-radius: 5px;
+        margin: 10px;
+        height: 137px;
+        position: relative;
+        .icon-name{
+            margin-top: 25px;
+            display: block;
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            color: #666;
+            font-size: 12px;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .icon-code{
+            display: inline-block;
+            width: 100px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 100px;
+            color: #666;
+        }
+        .icon-cover{
+            width: 100%;
+            height: 100%;
+            background: rgba(13,10,49,.9);
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            overflow: hidden;
+            vertical-align: middle;
+            border-radius: 5px;
+            cursor: pointer;
+            .download{
+                color: #fff;
+                font-size: 38px;
+                line-height: 137px;
+            }
+        }
+        &:hover{
+            .icon-cover{
+                display: block;
+            }
+        }
+    }
+}
+.m-wrap-icon{
+    .ant-modal-body{
+        background-color: #fafafb!important;
+    }
+    .wrap-img{
+        width: 100%;
+        height: 270px;
+        line-height: 270px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 12px;
+    }
+    .u-color-picker{
+        position: absolute;
+        right: 3px;
+        top: 3px;
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        background: #f00;
+        border: 1px solid #d9d9d9;
+        z-index: 999;
+    }
+    .u-select{
+        width: 80px;
+        vertical-align: bottom;
+        margin-left: 10px;
+    }
+    .u-png{
+        vertical-align: bottom;
+        margin-left: 10px;
+    }
+}

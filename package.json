@@ -60,6 +60,7 @@
 		"react-dom": "^16.13.1",
 		"react-fittext": "^1.0.0",
 		"react-sortablejs": "^5.0.5",
+		"save-svg-as-png": "^1.4.17",
 		"script-loader": "^0.7.2",
 		"sql-formatter": "^4.0.2",
 		"styled-components": "^5.0.1",

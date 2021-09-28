@@ -1,0 +1,114 @@
+{
+    "id": "2839222",
+    "name": "云踪",
+    "font_family": "iconfont",
+    "css_prefix_text": "icon-",
+    "description": "",
+    "glyphs": [
+        {
+            "icon_id": "21205104",
+            "name": "公告",
+            "font_class": "gonggao",
+            "unicode": "e618",
+            "unicode_decimal": 58904
+        },
+        {
+            "icon_id": "22921454",
+            "name": "车",
+            "font_class": "car",
+            "unicode": "ec24",
+            "unicode_decimal": 60452
+        },
+        {
+            "icon_id": "22921473",
+            "name": "个人",
+            "font_class": "geren",
+            "unicode": "ec25",
+            "unicode_decimal": 60453
+        },
+        {
+            "icon_id": "22921595",
+            "name": "地址",
+            "font_class": "address",
+            "unicode": "ec26",
+            "unicode_decimal": 60454
+        },
+        {
+            "icon_id": "22921604",
+            "name": "家庭关系",
+            "font_class": "home",
+            "unicode": "ec27",
+            "unicode_decimal": 60455
+        },
+        {
+            "icon_id": "22921613",
+            "name": "经济",
+            "font_class": "economy",
+            "unicode": "ec28",
+            "unicode_decimal": 60456
+        },
+        {
+            "icon_id": "22921623",
+            "name": "APP开发",
+            "font_class": "app",
+            "unicode": "ec29",
+            "unicode_decimal": 60457
+        },
+        {
+            "icon_id": "22921655",
+            "name": "手机",
+            "font_class": "phone",
+            "unicode": "ec2a",
+            "unicode_decimal": 60458
+        },
+        {
+            "icon_id": "22921695",
+            "name": "公共行为管理",
+            "font_class": "common-manger",
+            "unicode": "ec2b",
+            "unicode_decimal": 60459
+        },
+        {
+            "icon_id": "22921715",
+            "name": "涉事人员",
+            "font_class": "crime",
+            "unicode": "ec2c",
+            "unicode_decimal": 60460
+        },
+        {
+            "icon_id": "23208317",
+            "name": "设置",
+            "font_class": "setting",
+            "unicode": "ec2e",
+            "unicode_decimal": 60462
+        },
+        {
+            "icon_id": "23208320",
+            "name": "应用商店",
+            "font_class": "shop",
+            "unicode": "ec2f",
+            "unicode_decimal": 60463
+        },
+        {
+            "icon_id": "23208327",
+            "name": "公安",
+            "font_class": "gongan",
+            "unicode": "ec30",
+            "unicode_decimal": 60464
+        },
+        {
+            "icon_id": "23208336",
+            "name": "云存储",
+            "font_class": "cloud",
+            "unicode": "ec31",
+            "unicode_decimal": 60465
+        },
+        {
+            "icon_id": "23208471",
+            "name": "用户2",
+            "font_class": "users",
+            "unicode": "ec32",
+            "unicode_decimal": 60466
+        }
+    ]
+}

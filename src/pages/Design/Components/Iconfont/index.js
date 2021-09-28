@@ -3,32 +3,42 @@
  * @Describe: Iconfont 图标库
  */
 
-import { useState, Fragment } from "react";
+import { useState } from "react";
 import { MdPreviewer } from "react-markdown-previewer";
-import { Tabs, Button } from "antd";
+import { Tabs } from "antd";
 import Title from "@/components/Title";
+import WrapIcon from "./WrapIcon";
+import yygk from "./yygk.json";
+import yz from "./yz.json";
+import dmp from "./dmp.json";
+
 import BaseMd from "./base.md";
 
 const { TabPane } = Tabs;
 
 export default () => {
-	const origin = location.origin;
 	const [activeKey, setActiveKey] = useState("1");
 
 	const urlList = [
 		{
-			title: "运营管控平台",
+			title: "DMP",
 			name: "1",
-			src: `${origin}/assets/iconfont1/index.html`
+			src: "//at.alicdn.com/t/font_2839244_7v59p1l45yy.js",
+			data: dmp.glyphs
+		},
+		{
+			title: "运营管控平台",
+			name: "2",
+			src: "//at.alicdn.com/t/font_1948912_3kjtcem0hq2.js",
+			data: yygk.glyphs
 		},
 		{
 			title: "云踪系统",
-			name: "2",
-			src: `${origin}/assets/iconfont2/index.html`
+			name: "3",
+			src: "//at.alicdn.com/t/font_2839222_wqehsdeg8nm.js",
+			data: yz.glyphs
 		}
 	];
-
-	const currentItem = urlList.find(item => item.name === activeKey);
 
 	return (
 		<div>
@@ -43,18 +53,6 @@ export default () => {
 					onChange={(activeKey) => {
 						setActiveKey(activeKey);
 					}}
-					tabBarExtraContent={
-						currentItem &&
-						<Fragment>
-							<Button
-								onClick={() => {
-									window.open(currentItem.src);
-								}}
-							>
-								新窗口打开
-							</Button>
-						</Fragment>
-					}
 				>
 					{
 						urlList.map(item => {
@@ -62,14 +60,11 @@ export default () => {
 								<TabPane
 									tab={item.title}
 									key={item.name}
-									style={{ border: "#f0f0f0 solid 1px" }}
+								// style={{ border: "#f0f0f0 solid 1px" }}
 								>
-									<iframe
-										seamless={true}
-										style={{ border: "none" }}
-										width="100%"
-										height="800"
+									<WrapIcon
 										src={item.src}
+										data={item.data}
 									/>
 								</TabPane>
 							);
