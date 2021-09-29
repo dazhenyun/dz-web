@@ -9,7 +9,7 @@ import { ComIcon } from "@dzo/com";
 import { DownloadOutlined } from "@ant-design/icons";
 import Modal from "./Modal";
 
-export default ({ src, data = [] }) => {
+export default ({ src, data = [], prefix = "icon-" }) => {
 	const [visible, setVisible] = useState(false);
 	const [curItem, setCurItem] = useState();
 
@@ -37,9 +37,10 @@ export default ({ src, data = [] }) => {
 							<ComIcon
 								type={item.font_class}
 								style={{ marginTop: 18, fontSize: 36 }}
+								prefix={prefix}
 							/>
 							<span className="icon-name" title={item.name}>{item.name}</span>
-							<span className="icon-code" title={`icon-${item.name}`}>icon-{item.font_class}</span>
+							<span className="icon-code" title={`${prefix}${item.name}`}>{prefix}{item.font_class}</span>
 							<div className="icon-cover" onClick={() => handleModal(item)}>
 								<DownloadOutlined className="download" />
 							</div>
@@ -52,6 +53,7 @@ export default ({ src, data = [] }) => {
 				<Modal
 					visible={visible}
 					data={curItem}
+					prefix={prefix}
 					onCancel={() => setVisible(false)}
 				/>
 			}

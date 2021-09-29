@@ -6,6 +6,7 @@ const Recommend = React.lazy(() => import("./Components/Recommend"));
 const Babel = React.lazy(() => import("./Components/Babel"));
 
 const ComIntroduce = React.lazy(() => import("./Components/ComIntroduce"));
+const Icon = React.lazy(() => import("./Components/Icon"));
 const ComIcon = React.lazy(() => import("./Components/ComIcon"));
 const DynamicFieldSet = React.lazy(() => import("./Components/DynamicFieldSet"));
 const GForm = React.lazy(() => import("./Components/GForm"));
@@ -17,7 +18,6 @@ const FileUpload = React.lazy(() => import("./Components/FileUpload"));
 const TableBtns = React.lazy(() => import("./Components/TableBtns"));
 const Ellipsis = React.lazy(() => import("./Components/Ellipsis"));
 
-// const Icon = React.lazy(() => import("./Components/Icon"));
 // const Handle = React.lazy(() => import("./Components/Handle"));
 // const Ellipsis = React.lazy(() => import("./Components/Ellipsis"));
 
@@ -57,6 +57,12 @@ const Menu = [
 				title: "快速入门",
 				code: "comIntroduce",
 				component: ComIntroduce
+			},
+			{
+				title: "Icon 图标",
+				code: "icon",
+				component: Icon
+				// notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
 			},
 			{
 				title: "ComIcon 自定义Icon",
@@ -108,19 +114,6 @@ const Menu = [
 				code: "ellipsis",
 				component: Ellipsis
 			}
-			// {
-			// 	title: "Icon图标",
-			// 	code: "icon",
-			// 	component: Icon,
-			// 	notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
-			// },
-			// {
-			// 	title: "多按钮操作",
-			// 	code: "handle",
-			// 	component: Handle,
-			// 	notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
-			// },
-
 		]
 	}
 	// {

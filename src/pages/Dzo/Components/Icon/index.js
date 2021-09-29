@@ -7,7 +7,7 @@ import "./index.less";
 import { PureComponent } from "react";
 import { CodePreviewer, MdPreviewer } from "react-markdown-previewer";
 import { Input, message } from "antd";
-import { Icon, iconList } from "tntd";
+import { Icon, iconList } from "@dzo/com";
 import Clipboard from "react-clipboard.js";
 import Title from "@/components/Title";
 import BaseMd from "./base.md";
@@ -19,7 +19,9 @@ const { Search } = Input;
 class Document extends PureComponent {
 
 	state = {
-		list: Object.assign([], iconList)
+		list: Object.assign([], iconList),
+		fontSize: 32,
+		color: "#000"
 	}
 
 	onSuccess = (str) => {
@@ -29,13 +31,14 @@ class Document extends PureComponent {
 	search(val) {
 		let list = Object.assign([], iconList);
 		list = list.filter(item => {
-			return item.includes(val);
+			const str = `${item.font_class}${item.name}`;
+			return str.includes(val);
 		});
 		this.setState({ list });
 	}
 
 	render() {
-		const { list } = this.state;
+		const { list, fontSize, color } = this.state;
 
 		return (
 			<div className="m-icon">
@@ -52,7 +55,7 @@ class Document extends PureComponent {
 				<ul className="ul">
 					{
 						list.map((item, index) => {
-							const str = `<Icon type="${item}" />`;
+							const str = `<Icon type="${item.font_class}" />`;
 							return (
 								<li key={index}>
 									<Clipboard
@@ -60,8 +63,12 @@ class Document extends PureComponent {
 										data-clipboard-text={str}
 										onSuccess={() => this.onSuccess(str)}
 									>
-										<Icon type={item} />
-										<p>{item}</p>
+										<Icon
+											type={item.font_class}
+											style={{ fontSize: fontSize }}
+										/>
+										<p>{item.name}</p>
+										<p>{item.font_class}</p>
 									</Clipboard>
 								</li>
 							);
@@ -71,7 +78,11 @@ class Document extends PureComponent {
 				<h2>代码演示</h2>
 				<CodePreviewer code={CodeMd} showCode={false}>
 					<div style={{ padding: "10px 20px" }}>
-						<Icon type="flag-cn" />
+						<Icon
+							type="shujuji"
+							className="shujuji"
+							style={{ fontSize: 20, color: "#52B0FE" }}
+						/>
 					</div>
 				</CodePreviewer>
 				<MdPreviewer md={ApiMd}></MdPreviewer>

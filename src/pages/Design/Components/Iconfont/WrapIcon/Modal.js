@@ -20,7 +20,7 @@ const sizeMap = {
 	200: 0.1953125
 };
 
-export default ({ visible = false, onCancel, data }) => {
+export default ({ visible = false, onCancel, data, prefix = "icon-" }) => {
 	const { name, font_class, icon_id } = data || {};
 	const [color, setColor] = useState("#000000");
 	const [inputVal, setInputVal] = useState("000000");
@@ -34,7 +34,7 @@ export default ({ visible = false, onCancel, data }) => {
 
 	const changeSvg = () => {
 		const pEl = document.getElementById(icon_id);
-		const el = document.getElementById(`icon-${font_class}`);
+		const el = document.getElementById(`${prefix}${font_class}`);
 		const wrapEl = document.getElementById("wrapImg");
 		const svgEl = document.createElementNS("http://www.w3.org/2000/svg", "svg");
 		svgEl.innerHTML = el.innerHTML;
@@ -85,6 +85,7 @@ export default ({ visible = false, onCancel, data }) => {
 				<ComIcon
 					id={icon_id}
 					type={font_class}
+					prefix={prefix}
 					style={{ fontSize: fontSize, color: color }}
 				/>
 			</div>

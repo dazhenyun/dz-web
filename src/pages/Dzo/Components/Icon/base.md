@@ -1,10 +1,8 @@
 ## 使用
-> 安装tntd：npm install tntd --save
-
 ```jsx
-import { Icon } from "tntd";
+import { Icon } from "@dzo/com";
 
-<Icon type="system" />
+<Icon type="shujuji" />
 ```
 
 ## 图标列表

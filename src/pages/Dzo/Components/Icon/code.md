@@ -1,8 +1,15 @@
 ```jsx
-import { Icon } from "tntd";
+import React from 'react';
+import { Icon } from '@dzo/com';
 
-ReactDOM.render(
-    <Icon type="flag-cn" />, 
-    mountNode
-);
+export default () => {
+
+  return (
+    <Icon 
+        type="shujuji" 
+        className="shujuji"
+        style={{ fontSize: 20, color: "#52B0FE" }}
+    />
+  );
+};
 ```

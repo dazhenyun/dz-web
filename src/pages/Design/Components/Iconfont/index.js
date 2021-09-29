@@ -23,8 +23,9 @@ export default () => {
 		{
 			title: "DMP",
 			name: "1",
-			src: "//at.alicdn.com/t/font_2839244_7v59p1l45yy.js",
-			data: dmp.glyphs
+			src: "//at.alicdn.com/t/font_1911617_lpsbvbvgg8.js",
+			data: dmp.glyphs,
+			prefix: "dzo-"
 		},
 		{
 			title: "运营管控平台",
@@ -65,6 +66,7 @@ export default () => {
 									<WrapIcon
 										src={item.src}
 										data={item.data}
+										prefix={item.prefix}
 									/>
 								</TabPane>
 							);
