@@ -15,6 +15,7 @@ class TntCli extends PureComponent {
 		return (
 			<Fragment>
 				<Title
+					account="mufeng"
 					title="@dzo/cli 简介"
 					description="命令行工具，快速创建项目，开箱即用"
 				/>

@@ -16,6 +16,7 @@ class Introduce extends PureComponent {
 		return (
 			<>
 				<Title
+					account="ued"
 					title="快速入门"
 					description="我们不提倡重复造轮子，原子类组件采用antd及其规范，中台解决方案采用ProComponents部分组件，@dzo/com基于前两者的基础上从业务中沉淀而来"
 				/>

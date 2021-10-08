@@ -48,6 +48,7 @@ class Formula extends PureComponent {
 		return (
 			<div>
 				<Title
+					account="mufeng"
 					title='计算公式编辑器'
 					description="基于业务分离出的公式编辑器，支持自定义变量和方法的使用。"
 				/>

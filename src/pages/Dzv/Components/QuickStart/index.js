@@ -13,6 +13,7 @@ class QuickStart extends PureComponent {
 		return (
 			<Fragment>
 				<Title
+					account="mufeng"
 					title='图表组件库'
 					description="基于echarts5封装的React图表组件库"
 				/>

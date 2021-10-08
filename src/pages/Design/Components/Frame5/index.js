@@ -47,6 +47,7 @@ export default () => {
 	return (
 		<div>
 			<Title
+				account="mulan"
 				title='按钮'
 				description="基于业务抽离的视觉设计规范"
 			/>

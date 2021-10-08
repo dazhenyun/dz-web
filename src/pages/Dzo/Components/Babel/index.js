@@ -11,6 +11,7 @@ export default () => {
 	return (
 		<div>
 			<Title
+				account="mufeng"
 				title="@dzo/babel-plugin-dz"
 				description="基于DZO组件规范，自动化分析代码和样式的引入来帮助减小打包体积。"
 			/>

@@ -24,7 +24,7 @@ export default () => {
 
 	return (
 		<>
-			<Title title="Money 金额组件" />
+			<Title account="ued" title="Money 金额组件" />
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<CodePreviewer code={CodeMd} showCode={false}>
 				<div style={{ padding: 20 }}>

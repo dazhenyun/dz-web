@@ -17,7 +17,6 @@ npm i @dzo/babel-plugin-dz -D
 			"@dzo/babel-plugin-dz",
 			{
 				"library": [
-					"@dzo/com",	// 示例
 					"@dzv/charts"	// 示例
 				]
 			}

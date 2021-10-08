@@ -43,6 +43,7 @@ class Document extends PureComponent {
 		return (
 			<div className="m-icon">
 				<Title
+					account="mufeng"
 					title="Icon图标"
 					description="语义化的矢量图形。"
 				/>

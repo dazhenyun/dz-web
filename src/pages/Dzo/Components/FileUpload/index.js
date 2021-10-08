@@ -68,7 +68,7 @@ export default () => {
 
 	return (
 		<>
-			<Title title="SearchTree 搜索树" />
+			<Title account="ued" title="SearchTree 搜索树" />
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<CodePreviewer code={CodeMd} showCode={false}>
 				<div style={{ padding: 20 }}>

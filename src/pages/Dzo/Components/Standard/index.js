@@ -16,7 +16,7 @@ export default () => {
 
 	return (
 		<div className="g-dzo-standard">
-			<Title title="前端基础规范指南" />
+			<Title account="ued" title="前端基础规范指南" />
 			<ul className="m-ul">
 				{
 					standardList.map(item => (

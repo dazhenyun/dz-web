@@ -67,6 +67,7 @@ class SpecialEffects extends PureComponent {
 		return (
 			<div>
 				<Title
+					account="ued"
 					title='特效库'
 					description="一些项目中使用的特效库。"
 				/>

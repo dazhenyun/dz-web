@@ -4,6 +4,7 @@
 ## 目前已有组件一览
 ```jsx
 import { 
+    Icon,
     ComIcon,
     DynamicFieldSet,
     GForm,

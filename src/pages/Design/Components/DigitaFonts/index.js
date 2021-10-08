@@ -14,6 +14,7 @@ export default () => {
 	return (
 		<>
 			<Title
+				account="sheji"
 				title='数字字体'
 				description="适合项目中特殊数据的展示的数字字体"
 			/>

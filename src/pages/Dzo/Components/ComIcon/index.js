@@ -24,7 +24,7 @@ export default () => {
 
 	return (
 		<>
-			<Title title="ComIcon 自定义Icon" />
+			<Title account="ued" title="ComIcon 自定义Icon" />
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<CodePreviewer code={CodeMd} showCode={false}>
 				<div style={{ padding: 20 }}>

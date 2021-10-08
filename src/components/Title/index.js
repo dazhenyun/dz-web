@@ -3,18 +3,32 @@
  * @Describe: title组件
  */
 
-import { useState } from "react";
 import "./index.less";
+import { useState } from "react";
+import TextAvatar from "@dzc/text-avatar";
+import { Popover } from "antd";
+import { userMap } from "./constants";
 
-export default ({ title = "", description = "" }) => {
+export default ({ title = "", description = "", account = "" }) => {
 
 	return (
 		<div className="components-title">
-			{title}
+			{
+				userMap[account] &&
+				<TextAvatar
+					nickname={userMap[account].nickname}
+					account={account}
+					cardConfig={userMap[account].cardConfig}
+					linearGradient
+					theme='plant'
+				/>
+			}
+			<span className="u-title">{title}</span>
 			{
 				description &&
-				<div>{description}</div>
+				<div className="u-p1">{description}</div>
 			}
+			<Popover></Popover>
 		</div>
 	);
 };

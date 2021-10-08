@@ -20,6 +20,7 @@ export default () => {
 	return (
 		<div className="g-ppt">
 			<Title
+				account="mulan"
 				title='PPT 模板'
 				description="用户体验部推出的非常实用、高效的PPT模板"
 			/>

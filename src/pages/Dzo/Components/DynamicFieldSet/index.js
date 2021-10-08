@@ -77,7 +77,7 @@ export default () => {
 
 	return (
 		<>
-			<Title title="DynamicFieldSet 动态列表" />
+			<Title account="ued" title="DynamicFieldSet 动态列表" />
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<CodePreviewer code={CodeMd} showCode={false}>
 				<div style={{ padding: 20 }}>

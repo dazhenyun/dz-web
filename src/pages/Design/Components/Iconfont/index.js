@@ -44,6 +44,7 @@ export default () => {
 	return (
 		<div>
 			<Title
+				account="mulan"
 				title='Iconfont 图标库'
 				description="业务系统中所使用的iconfont图标库"
 			/>

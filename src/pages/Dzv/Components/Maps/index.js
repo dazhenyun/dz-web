@@ -158,6 +158,7 @@ class Layers extends PureComponent {
 		return (
 			<div className="three-map">
 				<Title
+					account="mufeng"
 					title='3D地图类'
 					description="基于geojson的3D地图类"
 				/>

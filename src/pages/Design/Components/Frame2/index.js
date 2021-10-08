@@ -32,6 +32,7 @@ export default () => {
 	return (
 		<div>
 			<Title
+				account="mulan"
 				title='二级导航'
 				description="基于业务抽离的视觉设计规范"
 			/>

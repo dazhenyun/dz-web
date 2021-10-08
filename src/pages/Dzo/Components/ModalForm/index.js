@@ -80,7 +80,7 @@ export default () => {
 
 	return (
 		<>
-			<Title title="ModalForm 表单弹窗" />
+			<Title account="ued" title="ModalForm 表单弹窗" />
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<CodePreviewer code={CodeMd} showCode={false}>
 				<div style={{ padding: 20 }}>

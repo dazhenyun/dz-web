@@ -292,7 +292,7 @@ export default () => {
 
 	return (
 		<>
-			<Title title="GForm 表单" />
+			<Title account="ued" title="GForm 表单" />
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<CodePreviewer code={CodeMd} showCode={false}>
 				<div style={{ padding: 20 }}>

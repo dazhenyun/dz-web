@@ -88,7 +88,7 @@ export default () => {
 
 	return (
 		<>
-			<Title title="TableBtns 表格操作按钮" />
+			<Title account="ued" title="TableBtns 表格操作按钮" />
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<CodePreviewer code={CodeMd} showCode={false}>
 				<div style={{ padding: 20 }}>

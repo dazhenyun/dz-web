@@ -78,6 +78,7 @@ export default () => {
 	return (
 		<div>
 			<Title
+				account="mufeng"
 				title="Ellipsis省略号组件"
 				description="根据限宽截断文本并显示省略号，添加Tooltip/Popover悬浮效果以显示完整文本。解决子符长度截断时不能很好的兼容中英文的问题。"
 			/>

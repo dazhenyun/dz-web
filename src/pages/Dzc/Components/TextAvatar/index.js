@@ -66,6 +66,7 @@ export default () => {
 	return (
 		<div>
 			<Title
+				account="mufeng"
 				title='文字头像'
 				description="一个小而美的文字头像卡片组件，内置色彩、支持单色和渐变，简单配置即可应用于业务中。"
 			/>
@@ -87,7 +88,7 @@ export default () => {
 								let cardConfig = [
 									{
 										label: "部门",
-										value: "智能产品与技术开发事业部-产品商业化组"
+										value: "智能产品与技术开发事业部-产品商业化组-用户体验组"
 									},
 									{
 										label: "邮箱",

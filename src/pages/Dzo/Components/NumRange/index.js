@@ -16,7 +16,7 @@ export default () => {
 
 	return (
 		<>
-			<Title title="NumRange 数字区间" />
+			<Title account="ued" title="NumRange 数字区间" />
 			<MdPreviewer md={BaseMd}></MdPreviewer>
 			<CodePreviewer code={CodeMd} showCode={false}>
 				<div style={{ padding: 20 }}>
