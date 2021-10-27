@@ -84,6 +84,7 @@ export default () => {
                         const requireUrl = staticFile + `design/material/images/${name}/${name}_${sIndex}.jpg`;
                         return (
                           <ImageView
+                            title={`${name}_${sIndex}`}
                             path={requireUrl}
                             previewImg={previewImg} />
 
