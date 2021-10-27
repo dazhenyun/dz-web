@@ -58,6 +58,12 @@ export const data = [
 		group: "热门推荐",
 		children: [
 			{
+				title: "优波设计",
+				des: "最实用、最专业、最全面、最好用的设计师导航！",
+				url: "https://www.ubuuk.com",
+				scr: "https://www.ubuuk.com/static/images/favicon.ico"
+			},
+			{
 				title: "Iconfont",
 				des: "国内最著名的图标搜索及管理平台，300万个图标下载",
 				url: "https://www.iconfont.cn",

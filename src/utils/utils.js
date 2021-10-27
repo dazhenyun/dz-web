@@ -1,7 +1,7 @@
 import { message } from "antd";
 
 // 弹窗未完全关闭禁止再次提交
-export function messageError(payload) {
+export function messageError (payload) {
 	return new Promise((resolve) => {
 		message.error(payload, () => {
 			resolve(false);
@@ -12,7 +12,7 @@ export function messageError(payload) {
 /**
  * @description: 报告对象数组去重
  */
-export function unique(array) {
+export function unique (array) {
 	let result = {};
 	let finalResult = [];
 
@@ -27,7 +27,7 @@ export function unique(array) {
 	return finalResult;
 }
 
-export function searchToObject(search) {
+export function searchToObject (search) {
 	let pairs = search.substring(1).split("&");
 	let obj = {};
 	let pair;
@@ -41,7 +41,7 @@ export function searchToObject(search) {
 	return obj;
 }
 
-export function getPlainNode(nodeList, parentPath = "") {
+export function getPlainNode (nodeList, parentPath = "") {
 	const arr = [];
 	nodeList.forEach((node) => {
 		const item = node;
@@ -59,7 +59,7 @@ export function getPlainNode(nodeList, parentPath = "") {
 	return arr;
 }
 
-export function getUrlKey(name) {
+export function getUrlKey (name) {
 	return (
 		decodeURIComponent(
 			(new RegExp(`[?|&]${name}=([^&;]+?)(&|#|;|$)`).exec(
@@ -69,7 +69,7 @@ export function getUrlKey(name) {
 	);
 }
 
-export function bytesToSize(bytes) {
+export function bytesToSize (bytes) {
 	if (bytes === 0) return "0 B";
 	var k = 1024;
 	var sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
@@ -78,7 +78,7 @@ export function bytesToSize(bytes) {
 	return (bytes / Math.pow(k, i)).toPrecision(3) + " " + sizes[i];
 }
 
-export function deleteEmptyObjItem(obj) {
+export function deleteEmptyObjItem (obj) {
 	for (let i in obj) {
 		let value = obj[i];
 		if (value === null || value === undefined || value === "" || !value && value !== 0) {
@@ -91,12 +91,17 @@ export function deleteEmptyObjItem(obj) {
 /**
  * @description: 获取字符串真实长度
  */
-export function getStrLength(str) {
+export function getStrLength (str) {
 	// 先把中文替换成两个字节的英文，再计算长度
 	return str.replace(/[\u0391-\uFFE5]/g, "aa").length;
 };
 
-export function downloadFile(url, fileName) {
+/**
+ * 静态资源地址
+ */
+export const staticFile = process.env.SYS_ENV !== "development" ? "/public/dz-web/" : "http://10.1.20.82:8076/dz-web/";
+
+export function downloadFile (url, fileName) {
 	var x = new XMLHttpRequest();
 	x.open("GET", url, true);
 	x.responseType = "blob";

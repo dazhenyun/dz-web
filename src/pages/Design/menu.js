@@ -5,6 +5,8 @@ const Iconfont = React.lazy(() => import("./Components/Iconfont"));
 const Ppt = React.lazy(() => import("./Components/Ppt"));
 const ColorBigbang = React.lazy(() => import("./Components/ColorBigbang"));
 const DigitaFonts = React.lazy(() => import("./Components/DigitaFonts"));
+const Empty = React.lazy(()=> import("./Components/Empty"));
+const Material = React.lazy(()=> import("./Components/Material"));
 // const Typography = React.lazy(() => import("./Components/Typography"));
 
 const Frame1 = React.lazy(() => import("./Components/Frame1"));
@@ -20,38 +22,6 @@ const Menu = [
 		title: "色彩规范",
 		code: "color",
 		component: Color
-	},
-	{
-		title: "LOGO 品牌墙",
-		code: "brandWall",
-		component: BrandWall
-	},
-	{
-		title: "Iconfont 图标库",
-		code: "iconfont",
-		component: Iconfont
-	},
-	{
-		title: "PPT 模板",
-		code: "ppt",
-		component: Ppt,
-		notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
-	},
-	// {
-	// 	title: "字体规范",
-	// 	code: "typography",
-	// 	component: Typography
-	// },
-	{
-		title: "数字字体",
-		code: "DigitalFonts",
-		component: DigitaFonts
-	},
-	{
-		title: "色彩大爆炸",
-		code: "colorBigbang",
-		component: ColorBigbang
-		// notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
 	},
 	{
 		title: "设计场景化🔥",
@@ -93,7 +63,52 @@ const Menu = [
 				component: Frame7
 			}
 		]
+	},
+	{
+		title: "结果页",
+		code: "empty",
+		component: Empty
+	},
+	{
+		title: "Iconfont 图标库",
+		code: "iconfont",
+		component: Iconfont
+	},
+	{
+		title: "数字字体",
+		code: "DigitalFonts",
+		component: DigitaFonts
+	},
+	{
+		title: "LOGO 品牌墙",
+		code: "brandWall",
+		component: BrandWall
+	},
+
+	{
+		title: "PPT 模板",
+		code: "ppt",
+		component: Ppt,
+		notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
+	},
+	{
+		title: "图片素材",
+		code: "material",
+		component: Material
+	},
+	// {
+	// 	title: "字体规范",
+	// 	code: "typography",
+	// 	component: Typography
+	// },
+
+	{
+		title: "色彩大爆炸",
+		code: "colorBigbang",
+		component: ColorBigbang
+		// notRender: process.env.SYS_ENV !== "development"	// 线上环境不显示
 	}
+
 ];
 
 export default Menu;

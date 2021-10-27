@@ -6,37 +6,38 @@
 import "./index.less";
 import { useState } from "react";
 import { DownloadOutlined } from "@ant-design/icons";
-import Title from "@/components/Title";
-import { downloadFile } from "@/utils/utils";
-
-const list = [
-	{ name: "PPT模板1", thumbnail: require("./img/ppt1.png"), url: "../../assets/ppt/ppt1.pptx" },
-	{ name: "PPT模板2", thumbnail: require("./img/ppt1.png"), url: "../../assets/ppt/ppt1.pptx" },
-	{ name: "PPT模板3", thumbnail: require("./img/ppt1.png"), url: "../../assets/ppt/ppt1.pptx" }
-];
+import { Title, ImageView } from "@/components";
+import { staticFile, downloadFile } from "@/utils/utils";
 
 export default () => {
 
 	return (
-		<div className="g-ppt">
+		<div>
 			<Title
 				account="mulan"
 				title='PPT 模板'
 				description="用户体验部推出的非常实用、高效的PPT模板"
 			/>
-			<ul className="clearfix">
+			<div className="clearfix">
 				{
-					list.map((item, index) => (
-						<li key={index}>
-							<p className="p1"><img src={item.thumbnail} /></p>
-							<p className="p2">{item.name}</p>
-							<div className="u-download" onClick={() => downloadFile(item.url, item.name)}>
+					Array.from({ length: 3 }).map((item, index) => {
+						const tplName = `PPT模板${index + 1}`;
+						const tplUrl = staticFile + "design/ppt/tpl/ppt1.pptx";
+						return (<ImageView
+							title={name}
+							path={tplUrl}
+							className={"g-ppt"}
+							footerRender={() => tplName}
+						>
+							<img src={require("./img/ppt1.png")} />
+							<div className="u-download" onClick={() => downloadFile(tplUrl, tplName)}>
 								<DownloadOutlined className="download" />
 							</div>
-						</li>
-					))
+						</ImageView>);
+					})
 				}
-			</ul>
+			</div>
+
 		</div>
 	);
 };

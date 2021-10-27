@@ -5,7 +5,7 @@
 
 import "./index.less";
 import { useState } from "react";
-import Title from "@/components/Title";
+import { Title, ImageView } from "@/components";
 import PreviewImgModal from "./PreviewImgModal";
 
 const list = [
@@ -45,20 +45,6 @@ export default () => {
 	const [url, setUrl] = useState();
 	const [isWhiteLogo, setIsWhiteLogo] = useState(false);
 
-	const downloadFile = (url, fileName) => {
-		var x = new XMLHttpRequest();
-		x.open("GET", url, true);
-		x.responseType = "blob";
-		x.onload = function (e) {
-			// 会创建一个 DOMString，其中包含一个表示参数中给出的对象的URL。这个 URL 的生命周期和创建它的窗口中的 document 绑定。这个新的URL 对象表示指定的 File 对象或 Blob 对象。
-			var url = window.URL.createObjectURL(x.response);
-			var a = document.createElement("a");
-			a.href = url;
-			a.download = fileName;
-			a.click();
-		};
-		x.send();
-	};
 
 	const previewImg = (url, isWhite) => {
 		setUrl(url);
@@ -72,19 +58,20 @@ export default () => {
 				list.map((item, index) => (
 					<div key={index} className="g-brandwall-box">
 						<Title title={item.name} />
-						<ul className="clearfix">
+						<div className="clearfix">
 							{
-								item.list.map((sItem, sIndex) => (
-									<li key={sIndex}>
-										<p className={sItem.isWhite ? "p1 white" : "p1"}><img src={sItem.url} /></p>
-										<p className="p2">
-											<span onClick={() => downloadFile(sItem.url, sItem.name)}>下载</span>
-											<span onClick={() => previewImg(sItem.url, sItem.isWhite)}>预览</span>
-										</p>
-									</li>
-								))
+								item.list.map(({ url, name, isWhite }, sIndex) => {
+									return (<ImageView
+										title={name}
+										path={url}
+										previewImg={() => previewImg(url, isWhite)}
+										className={isWhite ? "brand-white brand" : "brand"}>
+										<img src={url} />
+									</ImageView>);
+								})
 							}
-						</ul>
+
+						</div>
 					</div>
 				))
 			}
