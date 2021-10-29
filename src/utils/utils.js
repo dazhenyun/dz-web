@@ -99,7 +99,7 @@ export function getStrLength (str) {
 /**
  * 静态资源地址
  */
-export const staticFile = process.env.SYS_ENV !== "development" ? "/public/dz-web/" : "http://10.1.20.82:8076/dz-web/";
+export const staticFile = process.env.SYS_ENV !== "development" ? "/dz-web/" : "http://10.10.195.233/dz-web/";
 
 export function downloadFile (url, fileName) {
 	var x = new XMLHttpRequest();
